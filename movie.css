@@ -1,0 +1,52 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Dancing+Script&family=Foldit:wght@700&family=Josefin+Sans&family=Montserrat&family=Playfair:ital,opsz,wght@1,5..1200,600&family=Press+Start+2P&family=Roboto:ital,wght@0,400;0,700;1,100&family=Rubik+Puddles&family=Ubuntu:wght@300&display=swap');
+
+
+
+header {
+    background-color: #df4949;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family:Playfair;
+    font-size:30px;
+    background-image:url('photo-1626814026160-2237a95fc5a0.jpeg');
+    background-repeat:repeat-x;
+    width:100%;
+    text-shadow:10px white;
+  }
+  .search{
+    padding:5px;
+    text-align:center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #movieList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .movie {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .movie img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .movie h2 {
+    margin-top: 10px;
+  }
+  
+  .movie p {
+    margin-top: 5px;
+    color: #777;
+  }
